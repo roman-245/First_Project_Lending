@@ -1,0 +1,13 @@
+.video__iframes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    margin: 50px auto 0;
+  }
+  
+  .video__iframe {
+    width: 515px;
+    height: 316px;
+    color: blue;
+  }

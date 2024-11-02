@@ -1,0 +1,29 @@
+.resources__logo-zone {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    margin: 80px auto 217px;
+  }
+  
+  .resources__link {
+    width: 270px;
+    height: 38px;
+    flex-grow: 1;
+  }
+  
+  .resources__link-text {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(180, 185, 189);
+    text-decoration: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none; 
+    height: 100%;
+    font-size: calc(100% + (38px - 16px)); 
+    transition: opacity 0.3s ease;
+  }
+  
+  .resources__link-text:hover {
+    opacity: 0.7; /* Прозрачность при наведении (70%) */
+  }

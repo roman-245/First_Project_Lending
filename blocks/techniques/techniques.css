@@ -1,0 +1,50 @@
+.techniques {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .cards {
+    width: 920px;
+    margin: 0 auto 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 100px;
+  }
+  
+  .cards__item {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .cards__image {
+    padding: 60px 40px 43px; /* Убираем auto, чтобы избежать некорректного поведения */
+  }
+  
+  .cards__image-size {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .cards__title-text {
+    margin: 0 auto;
+  }
+  
+  .cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .cards__description-text {
+    margin: 16px auto 0;
+  }

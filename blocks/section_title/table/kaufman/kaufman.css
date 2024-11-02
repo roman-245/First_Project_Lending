@@ -1,0 +1,28 @@
+.kaufman {
+    position: relative;
+    background-color: rgb(33, 32, 32);
+    z-index: -2;
+    overflow: hidden;
+  }
+  
+  .table__size {
+    margin-bottom: 90px;
+  }
+  
+  .kaufman__triangle {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    margin-right: -210px;
+    z-index: -1;
+    animation: rotate 20s  infinite;
+  }
+  
+  /* и элемента с модификатором вида ключ-значение */
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
