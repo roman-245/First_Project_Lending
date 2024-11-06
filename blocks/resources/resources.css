@@ -12,13 +12,11 @@
   }
   
   .resources__link-text {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(180, 185, 189);
     text-decoration: none;
     display: flex; 
     align-items: center; 
-    justify-content: center; 
-    text-decoration: none; 
+    justify-content: center;  
     height: 100%;
     font-size: calc(100% + (38px - 16px)); 
     transition: opacity 0.3s ease;
